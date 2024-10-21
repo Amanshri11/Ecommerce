@@ -65,7 +65,7 @@ const Totalcount = Object.keys(cart).reduce(function(totalCount,current){
 
 <Routes>
 
-<Route index element={<ProductListPage/>}></Route>
+<Route path = "/" index element={<ProductListPage/>}></Route>
 
 <Route path="/products/:id" element={<ProductDetails   onAddToCart = {handleAddtocart}/>}></Route>
 
